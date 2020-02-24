@@ -19,3 +19,10 @@ changeColor.onclick = function(element) {
         {code: 'document.body.style.backgroundColor = "' + color + '";'});
   });
 };
+
+
+let myStorage = window.localStorage;
+
+if(!myStorage.getItem('isLoggedIn')){
+  console.log('Please log in!')
+}
