@@ -1,8 +1,8 @@
 {
-  "name": "Getting Started Example",
+  "name": "Stay Hydrated!",
   "version": "1.0",
-  "description": "Build an Extension!",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "description": "Chug Chug Chug!",
+  "permissions": ["activeTab", "declarativeContent", "storage", "notifications"],
   "options_page": "options.html",
   "background": {
     "scripts": ["background.js"],
